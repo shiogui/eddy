@@ -1,44 +1,26 @@
-# Compiler settings
-CC = gcc
-CFLAGS = -Wall -Wextra -std=c99 -O2
+# Configurações do compilador e alvos
+CC       := gcc
+SRC_DIR  := ./src
+TARGET   := ./eddy
+CFLAGS 	 := -Wall -Wextra $(shell pkg-config --cflags sdl3) -I./include
+LIBS     := $(shell pkg-config --libs sdl3)
+SRCS     := $(shell find $(SRC_DIR) -name "*.c")
 
-# Build targets and files
-TARGET = eddy
-SRCS = src/main.c
-OBJS = $(SRCS:.c=.o)
+.SILENT:
+.PHONY: all, clean, build, run
 
-# OS Detection and flag adjustments
-UNAME_S := $(shell uname -s)
+# Default target for build
+all: build
 
-ifeq ($(UNAME_S), Linux)
-    # Automatically query installed SDL3 paths via pkg-config
-    CFLAGS += $(shell pkg-config --cflags sdl3)
-    LIBS += $(shell pkg-config --libs sdl3)
-else ifeq ($(UNAME_S), Darwin) # macOS
-    CFLAGS += $(shell pkg-config --cflags sdl3)
-    LIBS += $(shell pkg-config --libs sdl3)
-else # Windows (MinGW / MSYS2 default environment)
-    CFLAGS += -I/usr/local/include
-    LIBS += -L/usr/local/lib -lSDL3
-endif
-
-# Default build target
-all: $(TARGET)
-
-# Link object files into final executable
-$(TARGET): $(OBJS)
-	$(CC) $(OBJS) -o $(TARGET) $(LIBS)
-
-# Compile source files into object files
-%.o: %.c
-	$(CC) $(CFLAGS) -c $< -o $@
-
-# Clean target to wipe generated files
+# Cleanup
 clean:
-	rm -f $(TARGET) $(OBJS)
+	rm -f $(TARGET)
 
-# Run target to quickly build and test
-run: all
-	./$(TARGET)
+# Builds the target binary
+build: clean
+	@echo "Files to build: $(SRCS)"
+	$(CC) $(CFLAGS) $(SRCS) -o $(TARGET) $(LIBS)
 
-.PHONY: all clean run
+# Run
+run: build
+	./eddy
