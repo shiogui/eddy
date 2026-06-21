@@ -45,6 +45,13 @@ sudo apt install pkg-config
 brew install pkg-config
 ```
 
+## Architecture
+
+This project does **not** use a conventional `main()` function. It uses SDL3's
+[main function callbacks](https://wiki.libsdl.org/SDL3/README-main-functions)
+(`SDL_AppInit`, `SDL_AppIterate`, `SDL_AppEvent`, `SDL_AppQuit`), enabled via
+`SDL_MAIN_USE_CALLBACKS`. SDL3 owns the entry point and drives the app loop.
+
 ## Build
 
 ```bash
