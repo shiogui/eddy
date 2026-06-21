@@ -2,6 +2,14 @@
 
 A very (very!!!) simple text editor (soon to be, for now it's just a window with barely any purpose or usefulness).
 
+>  
+> 🚨 **Disclaimer**  
+>  
+> AI usage on this project is permitted for documentation purposes only.  
+> All development and debugging must be done the old fashioned way.  
+> This is mostly a learning project — let's learn!  
+>  
+
 ## Dependencies
 
 | Library | Version | Notes |
