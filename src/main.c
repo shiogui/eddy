@@ -6,6 +6,7 @@
 
 #define APP_WIDTH 800
 #define APP_HEIGHT 600
+#define APP_TITLE "Eddy - Text Editor"
 
 typedef struct {
     SDL_Window *window;
@@ -32,12 +33,12 @@ SDL_AppResult SDL_AppInit(void **appstate, int argc, char **argv)
 
     *appstate = state;
 
-    if (!SDL_CreateWindowAndRenderer("SDL3 Window Example", APP_WIDTH, APP_HEIGHT, 0, &state->window, &state->renderer))
+    if (!SDL_CreateWindowAndRenderer(APP_TITLE, APP_WIDTH, APP_HEIGHT, SDL_WINDOW_RESIZABLE, &state->window, &state->renderer))
     {
         return SDL_APP_FAILURE;
     }
 
-    SDL_SetRenderLogicalPresentation(state->renderer, APP_WIDTH, APP_HEIGHT, SDL_LOGICAL_PRESENTATION_LETTERBOX);
+    SDL_SetRenderLogicalPresentation(state->renderer, APP_WIDTH, APP_HEIGHT, SDL_LOGICAL_PRESENTATION_INTEGER_SCALE);
 
     for (size_t i = 0; i < SDL_arraysize(state->points); i++)
     {
