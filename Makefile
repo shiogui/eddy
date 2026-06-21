@@ -4,7 +4,7 @@ CFLAGS = -Wall -Wextra -std=c99 -O2
 
 # Build targets and files
 TARGET = eddy
-SRCS = main.c
+SRCS = src/main.c
 OBJS = $(SRCS:.c=.o)
 
 # OS Detection and flag adjustments
