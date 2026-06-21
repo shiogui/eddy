@@ -2,8 +2,8 @@
 CC       := gcc
 SRC_DIR  := ./src
 TARGET   := ./eddy
-CFLAGS 	 := -Wall -Wextra $(shell pkg-config --cflags sdl3) -I./include
-LIBS     := $(shell pkg-config --libs sdl3)
+CFLAGS 	 := -Wall -Wextra $(shell pkgconf --cflags sdl3) $(shell pkgconf --cflags freetype2) -I./include
+LIBS     := $(shell pkgconf --libs sdl3) $(shell pkgconf --libs freetype2)
 SRCS     := $(shell find $(SRC_DIR) -name "*.c")
 
 DEMO_FILE := assets/code-files/example.html

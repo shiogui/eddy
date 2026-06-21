@@ -2,6 +2,7 @@
 
 #include <SDL3/SDL.h>
 #include <SDL3/SDL_main.h>
+// #include <SDL3_ttf/
 
 #define APP_NAME "Eddy"
 #define INITIAL_APP_WIDTH 800
