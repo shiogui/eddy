@@ -26,13 +26,15 @@ void update_points(AppState *state, int w, int h)
 
 SDL_AppResult SDL_AppInit(void **appstate, int argc, char **argv)
 {
-    (void)argc;
-    (void)argv;
-
     AppState *state = SDL_calloc(1, sizeof(AppState));
     if (!state)
     {
         return SDL_APP_FAILURE;
+    }
+
+    if (argc > 1)
+    {
+        state->file_path = argv[1];
     }
 
     state->points.w = 0;

@@ -19,4 +19,5 @@ typedef struct AppState
     SDL_Window *window;
     SDL_Renderer *renderer;
     PrettyPoints points;
+    char *file_path;
 } AppState;

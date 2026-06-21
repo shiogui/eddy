@@ -6,6 +6,8 @@ CFLAGS 	 := -Wall -Wextra $(shell pkg-config --cflags sdl3) -I./include
 LIBS     := $(shell pkg-config --libs sdl3)
 SRCS     := $(shell find $(SRC_DIR) -name "*.c")
 
+DEMO_FILE := assets/code-files/example.html
+
 .SILENT:
 .PHONY: all, clean, build, run
 
@@ -23,4 +25,4 @@ build: clean
 
 # Run
 run: build
-	./eddy
+	./eddy $(DEMO_FILE)
