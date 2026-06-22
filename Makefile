@@ -35,4 +35,4 @@ build: clean
 
 # Run
 run: build
-	$(shell $(TARGET) $(DEMO_FILE))
+	./eddy $(DEMO_FILE)
