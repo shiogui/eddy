@@ -1,9 +1,9 @@
-#include "logger.h"
 
 #include <stdio.h>
 #include <stdarg.h>
 
 #include "app.h"
+#include "logger.h"
 
 void log_info(char *format, ...)
 {
