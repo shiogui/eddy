@@ -1,9 +1,6 @@
 #include <stdio.h>
 #include <time.h>
 
-#include <freetype2/ft2build.h>
-#include <freetype2/freetype/freetype.h>
-
 #define SDL_MAIN_USE_CALLBACKS
 #include "app.h"
 #include "logger.h"
@@ -11,11 +8,15 @@
 FT_Library library;
 FT_Face face;
 SDL_Texture *glyphTexture = NULL;
+SDL_Palette *palette;
 
 int bearingX;
 int bearingY;
 float glyphWidth;
 float glyphHeight;
+
+int printed = 0;
+char *temp_content = "[Eddy] Total charmaps found: 2  Index 0: Platform ID = 0, Encoding ID = 3 Index 1: Platform ID = 3, Encoding ID = 1 [CURRENTLY ACTIVE]";
 
 void update_points(AppState *state, int w, int h)
 {
@@ -34,6 +35,87 @@ void update_points(AppState *state, int w, int h)
     state->points.h = h;
 
     log_info("Window Size Changed to { w: %d, h: %d }", w, h);
+}
+
+void draw_text(SDL_Renderer *renderer, char *text)
+{
+    FT_Error error;
+
+    char c;
+    int pen_x = 50, pen_y = 50;
+    int num_chars = strlen(text);
+
+    for (size_t n = 0; n < num_chars; n++)
+    {
+        c = text[n];
+
+        error = FT_Load_Char(face, c, FT_LOAD_RENDER);
+        if (error)
+        {
+            log_info("Error: Failed to load character (%c)", c);
+            continue;
+        }
+
+        FT_GlyphSlot slot = face->glyph;
+        glyphWidth = (float)slot->bitmap.width;
+        glyphHeight = (float)slot->bitmap.rows;
+
+        if (!printed)
+        {
+            log_info("Glyph Info: { w: %f, h: %f }", glyphWidth, glyphHeight);
+        }
+
+        if (glyphWidth > 0 && glyphHeight > 0)
+        {
+            // Create an interim CPU surface. FreeType's default output is an 8-bit indexing array (Grayscale/Alpha)
+            // We use SDL_PIXELFORMAT_INDEX8 to match FreeType's exact data architecture
+            SDL_Surface *surface = SDL_CreateSurfaceFrom(
+                (int)glyphWidth,
+                (int)glyphHeight,
+                SDL_PIXELFORMAT_INDEX8,
+                slot->bitmap.buffer,
+                slot->bitmap.pitch);
+
+            if (!surface)
+            {
+                continue;
+            }
+
+            SDL_SetSurfacePalette(surface, palette);
+
+            // Upload the CPU pixel surface memory directly into a GPU texture structure
+            glyphTexture = SDL_CreateTextureFromSurface(renderer, surface);
+            SDL_DestroySurface(surface); // CPU buffer memory is no longer needed
+        }
+
+        // Extract spacing offsets for pixel-perfect structural layouts
+        bearingX = (float)slot->bitmap_left;
+        bearingY = (float)slot->bitmap_top;
+
+        /* now, draw to our target surface */
+        // my_draw_bitmap(&slot->bitmap,
+        //                pen_x + slot->bitmap_left,
+        //                pen_y - slot->bitmap_top);
+
+        SDL_FRect dstRect = {
+            .x = pen_x + bearingX,
+            .y = pen_y - bearingY, // Subtract bearingY because SDL screen Y coordinates grow downward
+            .w = glyphWidth,
+            .h = glyphHeight};
+
+        SDL_SetTextureBlendMode(glyphTexture, SDL_BLENDMODE_BLEND);
+        SDL_RenderTexture(renderer, glyphTexture, NULL, &dstRect);
+
+        if (!printed)
+        {
+            log_info("X Movement: { pen_x: %d, slot_advance_x: %d }", pen_x, slot->advance.x >> 6);
+        }
+
+        /* increment pen position */
+        pen_x += slot->advance.x >> 6;
+    }
+
+    printed = 1;
 }
 
 SDL_AppResult SDL_AppInit(void **appstate, int argc, char **argv)
@@ -102,54 +184,18 @@ SDL_AppResult SDL_AppInit(void **appstate, int argc, char **argv)
 
     FT_Set_Pixel_Sizes(face, 0, 24);
 
-    char charToRender = 'A';
-    if (FT_Load_Char(face, charToRender, FT_LOAD_RENDER))
+    // Setup a simple grayscale palette for the 8-bit index surface
+    palette = SDL_CreatePalette(256);
+
+    SDL_Color colors[256];
+    for (int i = 0; i < 256; i++)
     {
-        SDL_Log("Could not load character glyph");
+        colors[i].r = 255; // Keep font color white
+        colors[i].g = 255;
+        colors[i].b = 255;
+        colors[i].a = (Uint8)i; // Map FreeType shade intensity directly to transparency alpha
     }
-
-    FT_GlyphSlot slot = face->glyph;
-    glyphWidth = (float)slot->bitmap.width;
-    glyphHeight = (float)slot->bitmap.rows;
-
-    if (glyphWidth > 0 && glyphHeight > 0)
-    {
-        // Create an interim CPU surface. FreeType's default output is an 8-bit indexing array (Grayscale/Alpha)
-        // We use SDL_PIXELFORMAT_INDEX8 to match FreeType's exact data architecture
-        SDL_Surface *surface = SDL_CreateSurfaceFrom(
-            (int)glyphWidth,
-            (int)glyphHeight,
-            SDL_PIXELFORMAT_INDEX8,
-            slot->bitmap.buffer,
-            slot->bitmap.pitch);
-
-        if (surface)
-        {
-            // Setup a simple grayscale palette for the 8-bit index surface
-            SDL_Palette *palette = SDL_CreatePalette(256);
-            if (palette)
-            {
-                SDL_Color colors[256];
-                for (int i = 0; i < 256; i++)
-                {
-                    colors[i].r = 255; // Keep font color white
-                    colors[i].g = 255;
-                    colors[i].b = 255;
-                    colors[i].a = (Uint8)i; // Map FreeType shade intensity directly to transparency alpha
-                }
-                SDL_SetPaletteColors(palette, colors, 0, 256);
-                SDL_SetSurfacePalette(surface, palette);
-            }
-
-            // Upload the CPU pixel surface memory directly into a GPU texture structure
-            glyphTexture = SDL_CreateTextureFromSurface(state->renderer, surface);
-            SDL_DestroySurface(surface); // CPU buffer memory is no longer needed
-        }
-    }
-
-    // Extract spacing offsets for pixel-perfect structural layouts
-    bearingX = (float)slot->bitmap_left;
-    bearingY = (float)slot->bitmap_top;
+    SDL_SetPaletteColors(palette, colors, 0, 256);
 
     return SDL_APP_CONTINUE;
 }
@@ -169,45 +215,10 @@ SDL_AppResult SDL_AppIterate(void *appstate)
 
     update_points(state, w, h);
 
-    SDL_FRect rect;
-
     SDL_SetRenderDrawColor(state->renderer, 33, 33, 33, SDL_ALPHA_OPAQUE);
     SDL_RenderClear(state->renderer);
 
-    // draw a filled rectangle in the middle of the canvas
-    SDL_SetRenderDrawColor(state->renderer, 0, 0, 255, SDL_ALPHA_OPAQUE);
-    rect.x = rect.y = 100;
-    rect.w = w - 200;
-    rect.h = h - 200;
-    SDL_RenderFillRect(state->renderer, &rect);
-
-    // draw some points across the canvas
-    SDL_SetRenderDrawColor(state->renderer, 255, 0, 0, SDL_ALPHA_OPAQUE);
-    SDL_RenderPoints(state->renderer, state->points.dt, SDL_arraysize(state->points.dt));
-
-    // draw a unfilled rectangle in-set a little bit
-    SDL_SetRenderDrawColor(state->renderer, 0, 255, 0, SDL_ALPHA_OPAQUE);
-    rect.x += 30;
-    rect.y += 30;
-    rect.w -= 60;
-    rect.h -= 60;
-    SDL_RenderRect(state->renderer, &rect);
-
-    // draw two lines in an X across the whole canvas
-    SDL_SetRenderDrawColor(state->renderer, 255, 255, 0, SDL_ALPHA_OPAQUE);
-    SDL_RenderLine(state->renderer, 0, 0, w, h);
-    SDL_RenderLine(state->renderer, w, 0, 0, h);
-
-    // Position the character relative to a baseline origin point (e.g., X=100, Y=200)
-    SDL_FRect dstRect = {
-        .x = 10.0f + bearingX,
-        .y = 50.0f - bearingY, // Subtract bearingY because SDL screen Y coordinates grow downward
-        .w = glyphWidth,
-        .h = glyphHeight};
-
-    // Set blend mode so transparency maps correctly
-    SDL_SetTextureBlendMode(glyphTexture, SDL_BLENDMODE_BLEND);
-    SDL_RenderTexture(state->renderer, glyphTexture, NULL, &dstRect);
+    draw_text(state->renderer, temp_content);
 
     SDL_RenderPresent(state->renderer);
 
