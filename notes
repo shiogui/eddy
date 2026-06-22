@@ -1,0 +1,34 @@
+// draw a filled rectangle in the middle of the canvas
+SDL_SetRenderDrawColor(state->renderer, 0, 0, 255, SDL_ALPHA_OPAQUE);
+rect.x = rect.y = 100;
+rect.w = w - 200;
+rect.h = h - 200;
+SDL_RenderFillRect(state->renderer, &rect);
+
+// draw some points across the canvas
+SDL_SetRenderDrawColor(state->renderer, 255, 0, 0, SDL_ALPHA_OPAQUE);
+SDL_RenderPoints(state->renderer, state->points.dt, SDL_arraysize(state->points.dt));
+
+// draw a unfilled rectangle in-set a little bit
+SDL_SetRenderDrawColor(state->renderer, 0, 255, 0, SDL_ALPHA_OPAQUE);
+rect.x += 30;
+rect.y += 30;
+rect.w -= 60;
+rect.h -= 60;
+SDL_RenderRect(state->renderer, &rect);
+
+// draw two lines in an X across the whole canvas
+SDL_SetRenderDrawColor(state->renderer, 255, 255, 0, SDL_ALPHA_OPAQUE);
+SDL_RenderLine(state->renderer, 0, 0, w, h);
+SDL_RenderLine(state->renderer, w, 0, 0, h);
+
+// Position the character relative to a baseline origin point (e.g., X=100, Y=200)
+SDL_FRect dstRect = {
+    .x = 10.0f + bearingX,
+    .y = 50.0f - bearingY, // Subtract bearingY because SDL screen Y coordinates grow downward
+    .w = glyphWidth,
+    .h = glyphHeight};
+
+// Set blend mode so transparency maps correctly
+SDL_SetTextureBlendMode(glyphTexture, SDL_BLENDMODE_BLEND);
+SDL_RenderTexture(state->renderer, glyphTexture, NULL, &dstRect);
