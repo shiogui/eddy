@@ -1,8 +1,11 @@
 #include <time.h>
 
+#define SDL_MAIN_USE_CALLBACKS
 #include <SDL3/SDL.h>
 #include <SDL3/SDL_main.h>
-// #include <SDL3_ttf/
+
+#include <freetype2/ft2build.h>
+#include <freetype2/freetype/freetype.h>
 
 #define APP_NAME "Eddy"
 #define INITIAL_APP_WIDTH 800
