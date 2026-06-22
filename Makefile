@@ -17,8 +17,9 @@ SRC_DIR  	:= ./src
 TARGET   	:= ./eddy
 SRCS     	:= $(shell find $(SRC_DIR) -name "*.c")
 DEMO_FILE 	:= assets/code-files/example.html
-INCLUDES 	+= -I./include
+P_INCLUDES 	:= -I./include
 
+.SILENT: clean
 .PHONY: all, clean, build, run
 
 # Default target for build (when we run just 'make')
@@ -30,7 +31,7 @@ clean:
 
 # Builds the target binary
 build: clean
-	$(CC) $(WARNINGS) $(INCLUDES) $(SRCS) -o $(TARGET) $(LIBS)
+	$(CC) $(WARNINGS) $(sort $(INCLUDES)) $(P_INCLUDES) $(SRCS) -o $(TARGET) $(sort $(LIBS))
 
 # Run
 run: build
