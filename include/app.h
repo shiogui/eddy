@@ -6,6 +6,8 @@
 #include <freetype2/ft2build.h>
 #include <freetype2/freetype/freetype.h>
 
+#include <fontconfig/fontconfig.h>
+
 #define APP_NAME "Eddy"
 #define INITIAL_APP_WIDTH 800
 #define INITIAL_APP_HEIGHT 600
