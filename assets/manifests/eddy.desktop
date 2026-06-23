@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Eddy
+Comment=An attempt at a Text Editor
+Exec=/usr/local/bin/eddy
+Icon=eddy
+Terminal=false
+Categories=Utility;Development;Text Editing;

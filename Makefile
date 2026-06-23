@@ -36,3 +36,10 @@ build: clean
 # Run
 run: build
 	./eddy $(DEMO_FILE)
+
+#Publish
+publish: build
+	sudo cp ./eddy /usr/local/bin
+	sudo cp ./assets/images/eddy.png /usr/share/pixmaps
+	cp ./assets/manifests/eddy.desktop ~/.local/share/applications
+	chmod +x ~/.local/share/applications/eddy.desktop
