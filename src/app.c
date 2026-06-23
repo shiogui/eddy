@@ -122,7 +122,9 @@ void update_points(AppState *state, int w, int h)
     state->points.w = w;
     state->points.h = h;
 
-    log_info("Window Size Changed to { w: %d, h: %d }", w, h);
+    FILE *file_ptr = fopen("dumps/window_size.txt", "a");
+    log_to_file_with_timestamp(file_ptr, "Window Size Changed to { w: %d, h: %d }", w, h);
+    fclose(file_ptr);
 }
 
 void draw_text(SDL_Renderer *renderer, char *text)
