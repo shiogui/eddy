@@ -3,6 +3,10 @@
 #include <stdlib.h>
 #include <string.h>
 
+#include <sys/stat.h>
+#include <sys/types.h>
+// #define mkdir(path) mkdir(path, 0777);
+
 #define SDL_MAIN_USE_CALLBACKS
 #include "app.h"
 #include "logger.h"
@@ -16,6 +20,8 @@ int bearingX;
 int bearingY;
 float glyphWidth;
 float glyphHeight;
+
+char *env;
 
 int printed = 0;
 char *temp_content = "[Eddy] Total charmaps found: 2  Index 0: Platform ID = 0, Encoding ID = 3 Index 1: Platform ID = 3, Encoding ID = 1 [CURRENTLY ACTIVE]";
@@ -126,7 +132,27 @@ void update_points(AppState *state, int w, int h)
     state->points.w = w;
     state->points.h = h;
 
-    FILE *file_ptr = fopen("dumps/window_size.txt", "a");
+    log_setup("Will create log file", "Loaded");
+
+    FILE *file_ptr;
+
+    log_info("env: %s", env);
+
+    if (env && strcmp(env, "local") == 0)
+    {
+        log_setup("is local", "Loaded");
+        mkdir("./dumps", 0777);
+        file_ptr = fopen("dumps/window_size.txt", "a");
+    }
+    else
+    {
+        log_setup("is not local", "Loaded");
+        mkdir("/tmp/dumps", 0777);
+        file_ptr = fopen("/tmp/dumps/window_size.txt", "a");
+    }
+
+    log_setup("opened file", "Loaded");
+
     log_to_file_with_timestamp(file_ptr, "Window Size Changed to { w: %d, h: %d }", w, h);
     fclose(file_ptr);
 }
@@ -209,6 +235,8 @@ void draw_text(SDL_Renderer *renderer, char *text)
 
 SDL_AppResult SDL_AppInit(void **appstate, int argc, char **argv)
 {
+    env = getenv("ENV");
+
     AppState *state = SDL_calloc(1, sizeof(AppState));
     if (!state)
     {
@@ -226,7 +254,11 @@ SDL_AppResult SDL_AppInit(void **appstate, int argc, char **argv)
     state->points.h = 0;
     SDL_memset(state->points.dt, 0, sizeof(state->points.dt));
 
+    log_setup("SDL_memset", "Loaded");
+
     *appstate = state;
+
+    log_setup("appstate", "Loaded");
 
     update_points(
         state,
@@ -319,7 +351,19 @@ SDL_AppResult SDL_AppInit(void **appstate, int argc, char **argv)
         return SDL_APP_FAILURE;
     }
 
-    FILE *file_ptr = fopen("dumps/fonts.txt", "w");
+    FILE *file_ptr;
+
+    if (env && strcmp(env, "local") == 0)
+    {
+        mkdir("./dumps", 0777);
+        file_ptr = fopen("dumps/fonts.txt", "a");
+    }
+    else
+    {
+        mkdir("/tmp/dumps", 0777);
+        file_ptr = fopen("/tmp/dumps/fonts.txt", "a");
+    }
+
     log_to_file(file_ptr, "[DEBUG] Found %d available fonts.", fc_fontset->nfont);
 
     for (int i = 0; i < fc_fontset->nfont; i++)
