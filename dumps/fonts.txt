@@ -1,0 +1,442 @@
+[Eddy] [DEBUG] Found 441 available fonts.
+[Eddy] [DEBUG] Font Nr.:1    -> Noto Sans Nushu                     | /usr/share/fonts/truetype/noto/NotoSansNushu-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:2    -> Z003                                | /usr/share/fonts/opentype/urw-base35/Z003-MediumItalic.otf
+[Eddy] [DEBUG] Font Nr.:3    -> Noto Sans Kayah Li                  | /usr/share/fonts/truetype/noto/NotoSansKayahLi-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:4    -> Noto Sans Sora Sompeng              | /usr/share/fonts/truetype/noto/NotoSansSoraSompeng-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:5    -> Noto Sans Bengali                   | /usr/share/fonts/truetype/noto/NotoSansBengali-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:6    -> Noto Sans Kannada                   | /usr/share/fonts/truetype/noto/NotoSansKannada-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:7    -> Nimbus Sans                         | /usr/share/fonts/opentype/urw-base35/NimbusSans-BoldItalic.otf
+[Eddy] [DEBUG] Font Nr.:8    -> Noto Sans Kayah Li                  | /usr/share/fonts/truetype/noto/NotoSansKayahLi-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:9    -> Noto Sans Rejang                    | /usr/share/fonts/truetype/noto/NotoSansRejang-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:10   -> Noto Naskh Arabic                   | /usr/share/fonts/truetype/noto/NotoNaskhArabic-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:11   -> Noto Serif Malayalam                | /usr/share/fonts/truetype/noto/NotoSerifMalayalam-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:12   -> Noto Serif Malayalam                | /usr/share/fonts/truetype/noto/NotoSerifMalayalam-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:13   -> URW Gothic                          | /usr/share/fonts/type1/urw-base35/URWGothic-DemiOblique.t1
+[Eddy] [DEBUG] Font Nr.:14   -> URW Bookman                         | /usr/share/fonts/type1/urw-base35/URWBookman-DemiItalic.t1
+[Eddy] [DEBUG] Font Nr.:15   -> Noto Sans Tirhuta                   | /usr/share/fonts/truetype/noto/NotoSansTirhuta-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:16   -> Noto Serif Ethiopic                 | /usr/share/fonts/truetype/noto/NotoSerifEthiopic-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:17   -> Noto Sans                           | /usr/share/fonts/truetype/noto/NotoSans-BoldItalic.ttf
+[Eddy] [DEBUG] Font Nr.:18   -> Noto Sans Hanifi Rohingya           | /usr/share/fonts/truetype/noto/NotoSansHanifiRohingya-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:19   -> Noto Sans Math                      | /usr/share/fonts/truetype/noto/NotoSansMath-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:20   -> Noto Serif Hebrew                   | /usr/share/fonts/truetype/noto/NotoSerifHebrew-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:21   -> URW Gothic                          | /usr/share/fonts/opentype/urw-base35/URWGothic-Book.otf
+[Eddy] [DEBUG] Font Nr.:22   -> Noto Sans Warang Citi               | /usr/share/fonts/truetype/noto/NotoSansWarangCiti-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:23   -> Noto Sans Grantha                   | /usr/share/fonts/truetype/noto/NotoSansGrantha-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:24   -> Noto Sans Takri                     | /usr/share/fonts/truetype/noto/NotoSansTakri-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:25   -> Noto Serif Khojki                   | /usr/share/fonts/truetype/noto/NotoSerifKhojki-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:26   -> Nimbus Mono PS                      | /usr/share/fonts/X11/Type1/NimbusMonoPS-Bold.pfb
+[Eddy] [DEBUG] Font Nr.:27   -> Nimbus Roman                        | /usr/share/fonts/type1/urw-base35/NimbusRoman-Italic.t1
+[Eddy] [DEBUG] Font Nr.:28   -> P052                                | /usr/share/fonts/type1/urw-base35/P052-BoldItalic.t1
+[Eddy] [DEBUG] Font Nr.:29   -> DejaVu Sans                         | /usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:30   -> Noto Sans Vai                       | /usr/share/fonts/truetype/noto/NotoSansVai-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:31   -> Noto Sans CJK TC                    | /usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc
+[Eddy] [DEBUG] Font Nr.:32   -> C059                                | /usr/share/fonts/opentype/urw-base35/C059-BdIta.otf
+[Eddy] [DEBUG] Font Nr.:33   -> Noto Sans Ol Chiki                  | /usr/share/fonts/truetype/noto/NotoSansOlChiki-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:34   -> Noto Sans Cherokee                  | /usr/share/fonts/truetype/noto/NotoSansCherokee-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:35   -> Noto Sans                           | /usr/share/fonts/truetype/noto/NotoSans-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:36   -> Noto Sans Adlam Unjoined            | /usr/share/fonts/truetype/noto/NotoSansAdlamUnjoined-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:37   -> P052                                | /usr/share/fonts/type1/urw-base35/P052-Bold.t1
+[Eddy] [DEBUG] Font Nr.:38   -> Nimbus Mono PS                      | /usr/share/fonts/type1/urw-base35/NimbusMonoPS-BoldItalic.t1
+[Eddy] [DEBUG] Font Nr.:39   -> Noto Sans CJK SC                    | /usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc
+[Eddy] [DEBUG] Font Nr.:40   -> Noto Serif Telugu                   | /usr/share/fonts/truetype/noto/NotoSerifTelugu-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:41   -> DejaVu Sans Mono                    | /usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:42   -> Noto Sans CJK JP                    | /usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc
+[Eddy] [DEBUG] Font Nr.:43   -> Droid Sans Fallback                 | /usr/share/fonts/truetype/droid/DroidSansFallbackFull.ttf
+[Eddy] [DEBUG] Font Nr.:44   -> Noto Sans CJK HK                    | /usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc
+[Eddy] [DEBUG] Font Nr.:45   -> Noto Sans CJK KR                    | /usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc
+[Eddy] [DEBUG] Font Nr.:46   -> Noto Serif Myanmar                  | /usr/share/fonts/truetype/noto/NotoSerifMyanmar-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:47   -> DejaVu Sans                         | /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+[Eddy] [DEBUG] Font Nr.:48   -> Noto Sans Mende Kikakui             | /usr/share/fonts/truetype/noto/NotoSansMendeKikakui-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:49   -> Noto Serif Sinhala                  | /usr/share/fonts/truetype/noto/NotoSerifSinhala-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:50   -> Noto Sans Khmer                     | /usr/share/fonts/truetype/noto/NotoSansKhmer-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:51   -> Noto Sans Coptic                    | /usr/share/fonts/truetype/noto/NotoSansCoptic-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:52   -> Noto Sans Lycian                    | /usr/share/fonts/truetype/noto/NotoSansLycian-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:53   -> Nimbus Sans                         | /usr/share/fonts/type1/urw-base35/NimbusSans-Bold.t1
+[Eddy] [DEBUG] Font Nr.:54   -> Nimbus Sans Narrow                  | /usr/share/fonts/opentype/urw-base35/NimbusSansNarrow-Regular.otf
+[Eddy] [DEBUG] Font Nr.:55   -> Noto Sans Nabataean                 | /usr/share/fonts/truetype/noto/NotoSansNabataean-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:56   -> Noto Sans Sundanese                 | /usr/share/fonts/truetype/noto/NotoSansSundanese-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:57   -> Noto Sans Old Sogdian               | /usr/share/fonts/truetype/noto/NotoSansOldSogdian-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:58   -> Noto Sans Anatolian Hieroglyphs     | /usr/share/fonts/truetype/noto/NotoSansAnatolianHieroglyphs-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:59   -> Nimbus Mono PS                      | /usr/share/fonts/opentype/urw-base35/NimbusMonoPS-Regular.otf
+[Eddy] [DEBUG] Font Nr.:60   -> URW Gothic                          | /usr/share/fonts/opentype/urw-base35/URWGothic-BookOblique.otf
+[Eddy] [DEBUG] Font Nr.:61   -> Noto Sans Indic Siyaq Numbers       | /usr/share/fonts/truetype/noto/NotoSansIndicSiyaqNumbers-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:62   -> Noto Sans Old Italic                | /usr/share/fonts/truetype/noto/NotoSansOldItalic-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:63   -> Noto Sans Mahajani                  | /usr/share/fonts/truetype/noto/NotoSansMahajani-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:64   -> Ubuntu Sans                         | /usr/share/fonts/truetype/ubuntu/UbuntuSans[wdth,wght].ttf
+[Eddy] [DEBUG] Font Nr.:65   -> C059                                | /usr/share/fonts/type1/urw-base35/C059-Bold.t1
+[Eddy] [DEBUG] Font Nr.:66   -> Noto Sans Hebrew                    | /usr/share/fonts/truetype/noto/NotoSansHebrew-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:67   -> Nimbus Roman                        | /usr/share/fonts/X11/Type1/NimbusRoman-Bold.pfb
+[Eddy] [DEBUG] Font Nr.:68   -> Noto Sans Tamil                     | /usr/share/fonts/truetype/noto/NotoSansTamil-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:69   -> Noto Sans Tifinagh Air              | /usr/share/fonts/truetype/noto/NotoSansTifinaghAir-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:70   -> Noto Sans Sinhala                   | /usr/share/fonts/truetype/noto/NotoSansSinhala-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:71   -> Noto Sans Old North Arabian         | /usr/share/fonts/truetype/noto/NotoSansOldNorthArabian-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:72   -> Noto Serif Gujarati                 | /usr/share/fonts/truetype/noto/NotoSerifGujarati-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:73   -> Noto Serif Khojki                   | /usr/share/fonts/truetype/noto/NotoSerifKhojki-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:74   -> URW Bookman                         | /usr/share/fonts/X11/Type1/URWBookman-LightItalic.pfb
+[Eddy] [DEBUG] Font Nr.:75   -> Noto Sans Kharoshthi                | /usr/share/fonts/truetype/noto/NotoSansKharoshthi-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:76   -> Noto Sans Sharada                   | /usr/share/fonts/truetype/noto/NotoSansSharada-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:77   -> Liberation Sans Narrow              | /usr/share/fonts/truetype/liberation/LiberationSansNarrow-BoldItalic.ttf
+[Eddy] [DEBUG] Font Nr.:78   -> URW Gothic                          | /usr/share/fonts/X11/Type1/URWGothic-Demi.pfb
+[Eddy] [DEBUG] Font Nr.:79   -> Noto Sans Marchen                   | /usr/share/fonts/truetype/noto/NotoSansMarchen-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:80   -> Noto Sans Arabic                    | /usr/share/fonts/truetype/noto/NotoSansArabic-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:81   -> Noto Sans Soyombo                   | /usr/share/fonts/truetype/noto/NotoSansSoyombo-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:82   -> Noto Sans Gujarati                  | /usr/share/fonts/truetype/noto/NotoSansGujarati-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:83   -> Noto Sans Kannada                   | /usr/share/fonts/truetype/noto/NotoSansKannada-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:84   -> Noto Sans Wancho                    | /usr/share/fonts/truetype/noto/NotoSansWancho-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:85   -> Nimbus Roman                        | /usr/share/fonts/X11/Type1/NimbusRoman-Regular.pfb
+[Eddy] [DEBUG] Font Nr.:86   -> Noto Sans Tifinagh Adrar            | /usr/share/fonts/truetype/noto/NotoSansTifinaghAdrar-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:87   -> Z003                                | /usr/share/fonts/X11/Type1/Z003-MediumItalic.pfb
+[Eddy] [DEBUG] Font Nr.:88   -> Noto Serif Balinese                 | /usr/share/fonts/truetype/noto/NotoSerifBalinese-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:89   -> Noto Sans Limbu                     | /usr/share/fonts/truetype/noto/NotoSansLimbu-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:90   -> Noto Sans Palmyrene                 | /usr/share/fonts/truetype/noto/NotoSansPalmyrene-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:91   -> Noto Serif Gujarati                 | /usr/share/fonts/truetype/noto/NotoSerifGujarati-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:92   -> Ubuntu Sans                         | /usr/share/fonts/truetype/ubuntu/UbuntuSans-Italic[wdth,wght].ttf
+[Eddy] [DEBUG] Font Nr.:93   -> Nimbus Sans Narrow                  | /usr/share/fonts/X11/Type1/NimbusSansNarrow-BoldOblique.pfb
+[Eddy] [DEBUG] Font Nr.:94   -> Noto Serif Khmer                    | /usr/share/fonts/truetype/noto/NotoSerifKhmer-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:95   -> D050000L                            | /usr/share/fonts/X11/Type1/D050000L.pfb
+[Eddy] [DEBUG] Font Nr.:96   -> Noto Serif Lao                      | /usr/share/fonts/truetype/noto/NotoSerifLao-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:97   -> Liberation Serif                    | /usr/share/fonts/truetype/liberation/LiberationSerif-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:98   -> Noto Sans Mono                      | /usr/share/fonts/truetype/noto/NotoSansMono-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:99   -> Noto Sans Medefaidrin               | /usr/share/fonts/truetype/noto/NotoSansMedefaidrin-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:100  -> Noto Sans Gujarati                  | /usr/share/fonts/truetype/noto/NotoSansGujarati-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:101  -> Liberation Mono                     | /usr/share/fonts/truetype/liberation/LiberationMono-Italic.ttf
+[Eddy] [DEBUG] Font Nr.:102  -> Liberation Mono                     | /usr/share/fonts/truetype/liberation/LiberationMono-BoldItalic.ttf
+[Eddy] [DEBUG] Font Nr.:103  -> Ubuntu Sans Mono                    | /usr/share/fonts/truetype/ubuntu/UbuntuSansMono[wght].ttf
+[Eddy] [DEBUG] Font Nr.:104  -> Noto Sans Hanifi Rohingya           | /usr/share/fonts/truetype/noto/NotoSansHanifiRohingya-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:105  -> Noto Sans Egyptian Hieroglyphs      | /usr/share/fonts/truetype/noto/NotoSansEgyptianHieroglyphs-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:106  -> Noto Sans Pahawh Hmong              | /usr/share/fonts/truetype/noto/NotoSansPahawhHmong-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:107  -> Noto Sans Samaritan                 | /usr/share/fonts/truetype/noto/NotoSansSamaritan-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:108  -> Nimbus Mono PS                      | /usr/share/fonts/type1/urw-base35/NimbusMonoPS-Regular.t1
+[Eddy] [DEBUG] Font Nr.:109  -> Noto Serif Kannada                  | /usr/share/fonts/truetype/noto/NotoSerifKannada-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:110  -> Noto Sans Cham                      | /usr/share/fonts/truetype/noto/NotoSansCham-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:111  -> Noto Sans Display                   | /usr/share/fonts/truetype/noto/NotoSansDisplay-Italic.ttf
+[Eddy] [DEBUG] Font Nr.:112  -> Noto Serif Devanagari               | /usr/share/fonts/truetype/noto/NotoSerifDevanagari-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:113  -> Noto Sans Cham                      | /usr/share/fonts/truetype/noto/NotoSansCham-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:114  -> Noto Serif Georgian                 | /usr/share/fonts/truetype/noto/NotoSerifGeorgian-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:115  -> Noto Sans Hebrew                    | /usr/share/fonts/truetype/noto/NotoSansHebrew-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:116  -> Noto Serif Hmong Nyiakeng           | /usr/share/fonts/truetype/noto/NotoSerifNyiakengPuachueHmong-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:117  -> Noto Sans Mono                      | /usr/share/fonts/truetype/noto/NotoSansMono-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:118  -> URW Gothic                          | /usr/share/fonts/opentype/urw-base35/URWGothic-DemiOblique.otf
+[Eddy] [DEBUG] Font Nr.:119  -> Noto Sans                           | /usr/share/fonts/truetype/noto/NotoSans-Italic.ttf
+[Eddy] [DEBUG] Font Nr.:120  -> Noto Serif Tamil Slanted            | /usr/share/fonts/truetype/noto/NotoSerifTamilSlanted-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:121  -> Noto Looped Thai                    | /usr/share/fonts/truetype/noto/NotoLoopedThai-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:122  -> Noto Sans Tifinagh Tawellemmet      | /usr/share/fonts/truetype/noto/NotoSansTifinaghTawellemmet-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:123  -> Noto Serif Khmer                    | /usr/share/fonts/truetype/noto/NotoSerifKhmer-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:124  -> Noto Sans Tifinagh Hawad            | /usr/share/fonts/truetype/noto/NotoSansTifinaghHawad-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:125  -> Noto Sans PhagsPa                   | /usr/share/fonts/truetype/noto/NotoSansPhagsPa-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:126  -> Noto Serif Georgian                 | /usr/share/fonts/truetype/noto/NotoSerifGeorgian-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:127  -> Noto Sans Newa                      | /usr/share/fonts/truetype/noto/NotoSansNewa-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:128  -> Noto Serif Tibetan                  | /usr/share/fonts/truetype/noto/NotoSerifTibetan-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:129  -> Nimbus Sans Narrow                  | /usr/share/fonts/X11/Type1/NimbusSansNarrow-Oblique.pfb
+[Eddy] [DEBUG] Font Nr.:130  -> Noto Serif Lao                      | /usr/share/fonts/truetype/noto/NotoSerifLao-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:131  -> Noto Sans Old Hungarian             | /usr/share/fonts/truetype/noto/NotoSansOldHungarian-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:132  -> Nimbus Roman                        | /usr/share/fonts/opentype/urw-base35/NimbusRoman-Italic.otf
+[Eddy] [DEBUG] Font Nr.:133  -> Noto Sans Modi                      | /usr/share/fonts/truetype/noto/NotoSansModi-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:134  -> URW Bookman                         | /usr/share/fonts/X11/Type1/URWBookman-DemiItalic.pfb
+[Eddy] [DEBUG] Font Nr.:135  -> Nimbus Roman                        | /usr/share/fonts/type1/urw-base35/NimbusRoman-Regular.t1
+[Eddy] [DEBUG] Font Nr.:136  -> Noto Sans Khudawadi                 | /usr/share/fonts/truetype/noto/NotoSansKhudawadi-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:137  -> Noto Sans Telugu                    | /usr/share/fonts/truetype/noto/NotoSansTelugu-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:138  -> Liberation Sans                     | /usr/share/fonts/truetype/liberation/LiberationSans-Italic.ttf
+[Eddy] [DEBUG] Font Nr.:139  -> Noto Serif Thai                     | /usr/share/fonts/truetype/noto/NotoSerifThai-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:140  -> Noto Sans Thaana                    | /usr/share/fonts/truetype/noto/NotoSansThaana-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:141  -> Nimbus Mono PS                      | /usr/share/fonts/opentype/urw-base35/NimbusMonoPS-Bold.otf
+[Eddy] [DEBUG] Font Nr.:142  -> Noto Sans                           | /usr/share/fonts/truetype/noto/NotoSans-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:143  -> Noto Sans Khmer                     | /usr/share/fonts/truetype/noto/NotoSansKhmer-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:144  -> Nimbus Mono PS                      | /usr/share/fonts/type1/urw-base35/NimbusMonoPS-Italic.t1
+[Eddy] [DEBUG] Font Nr.:145  -> Noto Serif Tibetan                  | /usr/share/fonts/truetype/noto/NotoSerifTibetan-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:146  -> Nimbus Sans Narrow                  | /usr/share/fonts/opentype/urw-base35/NimbusSansNarrow-Bold.otf
+[Eddy] [DEBUG] Font Nr.:147  -> Noto Sans Display                   | /usr/share/fonts/truetype/noto/NotoSansDisplay-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:148  -> Noto Sans Buginese                  | /usr/share/fonts/truetype/noto/NotoSansBuginese-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:149  -> Noto Sans Hanunoo                   | /usr/share/fonts/truetype/noto/NotoSansHanunoo-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:150  -> Noto Sans Duployan                  | /usr/share/fonts/truetype/noto/NotoSansDuployan-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:151  -> URW Gothic                          | /usr/share/fonts/X11/Type1/URWGothic-DemiOblique.pfb
+[Eddy] [DEBUG] Font Nr.:152  -> Noto Sans Gothic                    | /usr/share/fonts/truetype/noto/NotoSansGothic-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:153  -> C059                                | /usr/share/fonts/X11/Type1/C059-Italic.pfb
+[Eddy] [DEBUG] Font Nr.:154  -> Noto Sans Georgian                  | /usr/share/fonts/truetype/noto/NotoSansGeorgian-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:155  -> Nimbus Mono PS                      | /usr/share/fonts/type1/urw-base35/NimbusMonoPS-Bold.t1
+[Eddy] [DEBUG] Font Nr.:156  -> URW Gothic                          | /usr/share/fonts/X11/Type1/URWGothic-BookOblique.pfb
+[Eddy] [DEBUG] Font Nr.:157  -> Noto Sans Lydian                    | /usr/share/fonts/truetype/noto/NotoSansLydian-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:158  -> P052                                | /usr/share/fonts/opentype/urw-base35/P052-Bold.otf
+[Eddy] [DEBUG] Font Nr.:159  -> URW Gothic                          | /usr/share/fonts/X11/Type1/URWGothic-Book.pfb
+[Eddy] [DEBUG] Font Nr.:160  -> Noto Sans New Tai Lue               | /usr/share/fonts/truetype/noto/NotoSansNewTaiLue-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:161  -> Noto Serif Telugu                   | /usr/share/fonts/truetype/noto/NotoSerifTelugu-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:162  -> Noto Sans Malayalam                 | /usr/share/fonts/truetype/noto/NotoSansMalayalam-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:163  -> Noto Sans Syloti Nagri              | /usr/share/fonts/truetype/noto/NotoSansSylotiNagri-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:164  -> Noto Sans Mono CJK HK               | /usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc
+[Eddy] [DEBUG] Font Nr.:165  -> Noto Sans Mono CJK KR               | /usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc
+[Eddy] [DEBUG] Font Nr.:166  -> Noto Serif Gurmukhi                 | /usr/share/fonts/truetype/noto/NotoSerifGurmukhi-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:167  -> Noto Sans Mono CJK JP               | /usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc
+[Eddy] [DEBUG] Font Nr.:168  -> Noto Sans Osmanya                   | /usr/share/fonts/truetype/noto/NotoSansOsmanya-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:169  -> Noto Looped Lao                     | /usr/share/fonts/truetype/noto/NotoLoopedLao-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:170  -> Nimbus Mono PS                      | /usr/share/fonts/X11/Type1/NimbusMonoPS-Italic.pfb
+[Eddy] [DEBUG] Font Nr.:171  -> Noto Sans Psalter Pahlavi           | /usr/share/fonts/truetype/noto/NotoSansPsalterPahlavi-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:172  -> D050000L                            | /usr/share/fonts/opentype/urw-base35/D050000L.otf
+[Eddy] [DEBUG] Font Nr.:173  -> Noto Sans Mono CJK TC               | /usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc
+[Eddy] [DEBUG] Font Nr.:174  -> P052                                | /usr/share/fonts/opentype/urw-base35/P052-Italic.otf
+[Eddy] [DEBUG] Font Nr.:175  -> D050000L                            | /usr/share/fonts/type1/urw-base35/D050000L.t1
+[Eddy] [DEBUG] Font Nr.:176  -> Noto Sans Oriya                     | /usr/share/fonts/truetype/noto/NotoSansOriya-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:177  -> Standard Symbols PS                 | /usr/share/fonts/type1/urw-base35/StandardSymbolsPS.t1
+[Eddy] [DEBUG] Font Nr.:178  -> Noto Sans Mono CJK SC               | /usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc
+[Eddy] [DEBUG] Font Nr.:179  -> Noto Sans Phoenician                | /usr/share/fonts/truetype/noto/NotoSansPhoenician-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:180  -> Noto Naskh Arabic                   | /usr/share/fonts/truetype/noto/NotoNaskhArabic-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:181  -> Noto Sans Bhaiksuki                 | /usr/share/fonts/truetype/noto/NotoSansBhaiksuki-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:182  -> Noto Serif Bengali                  | /usr/share/fonts/truetype/noto/NotoSerifBengali-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:183  -> Liberation Sans                     | /usr/share/fonts/truetype/liberation/LiberationSans-BoldItalic.ttf
+[Eddy] [DEBUG] Font Nr.:184  -> P052                                | /usr/share/fonts/type1/urw-base35/P052-Roman.t1
+[Eddy] [DEBUG] Font Nr.:185  -> Noto Sans Canadian Aboriginal       | /usr/share/fonts/truetype/noto/NotoSansCanadianAboriginal-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:186  -> Nimbus Sans                         | /usr/share/fonts/opentype/urw-base35/NimbusSans-Regular.otf
+[Eddy] [DEBUG] Font Nr.:187  -> Noto Sans Display                   | /usr/share/fonts/truetype/noto/NotoSansDisplay-BoldItalic.ttf
+[Eddy] [DEBUG] Font Nr.:188  -> Noto Sans Oriya                     | /usr/share/fonts/truetype/noto/NotoSansOriya-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:189  -> Nimbus Sans                         | /usr/share/fonts/type1/urw-base35/NimbusSans-Regular.t1
+[Eddy] [DEBUG] Font Nr.:190  -> Noto Sans Balinese                  | /usr/share/fonts/truetype/noto/NotoSansBalinese-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:191  -> C059                                | /usr/share/fonts/opentype/urw-base35/C059-Roman.otf
+[Eddy] [DEBUG] Font Nr.:192  -> Noto Sans Devanagari                | /usr/share/fonts/truetype/noto/NotoSansDevanagari-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:193  -> URW Bookman                         | /usr/share/fonts/opentype/urw-base35/URWBookman-Light.otf
+[Eddy] [DEBUG] Font Nr.:194  -> Nimbus Sans Narrow                  | /usr/share/fonts/opentype/urw-base35/NimbusSansNarrow-Oblique.otf
+[Eddy] [DEBUG] Font Nr.:195  -> Noto Sans Thai                      | /usr/share/fonts/truetype/noto/NotoSansThai-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:196  -> Noto Sans Lisu                      | /usr/share/fonts/truetype/noto/NotoSansLisu-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:197  -> Noto Rashi Hebrew                   | /usr/share/fonts/truetype/noto/NotoRashiHebrew-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:198  -> URW Bookman                         | /usr/share/fonts/opentype/urw-base35/URWBookman-Demi.otf
+[Eddy] [DEBUG] Font Nr.:199  -> Liberation Sans Narrow              | /usr/share/fonts/truetype/liberation/LiberationSansNarrow-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:200  -> Noto Sans Tai Tham                  | /usr/share/fonts/truetype/noto/NotoSansTaiTham-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:201  -> Noto Sans Sogdian                   | /usr/share/fonts/truetype/noto/NotoSansSogdian-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:202  -> P052                                | /usr/share/fonts/X11/Type1/P052-BoldItalic.pfb
+[Eddy] [DEBUG] Font Nr.:203  -> Noto Serif Myanmar                  | /usr/share/fonts/truetype/noto/NotoSerifMyanmar-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:204  -> Noto Sans Manichaean                | /usr/share/fonts/truetype/noto/NotoSansManichaean-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:205  -> Nimbus Sans                         | /usr/share/fonts/type1/urw-base35/NimbusSans-BoldItalic.t1
+[Eddy] [DEBUG] Font Nr.:206  -> Noto Serif Hmong Nyiakeng           | /usr/share/fonts/truetype/noto/NotoSerifNyiakengPuachueHmong-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:207  -> Ubuntu Mono                         | /usr/share/fonts/truetype/ubuntu/UbuntuMono-Italic[wght].ttf
+[Eddy] [DEBUG] Font Nr.:208  -> Noto Sans Balinese                  | /usr/share/fonts/truetype/noto/NotoSansBalinese-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:209  -> Noto Sans Mayan Numerals            | /usr/share/fonts/truetype/noto/NotoSansMayanNumerals-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:210  -> Noto Sans Linear A                  | /usr/share/fonts/truetype/noto/NotoSansLinearA-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:211  -> Liberation Mono                     | /usr/share/fonts/truetype/liberation/LiberationMono-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:212  -> Noto Serif Display                  | /usr/share/fonts/truetype/noto/NotoSerifDisplay-Italic.ttf
+[Eddy] [DEBUG] Font Nr.:213  -> Noto Sans Kaithi                    | /usr/share/fonts/truetype/noto/NotoSansKaithi-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:214  -> Noto Sans Gurmukhi                  | /usr/share/fonts/truetype/noto/NotoSansGurmukhi-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:215  -> Noto Sans Linear B                  | /usr/share/fonts/truetype/noto/NotoSansLinearB-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:216  -> Noto Sans Lepcha                    | /usr/share/fonts/truetype/noto/NotoSansLepcha-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:217  -> Nimbus Roman                        | /usr/share/fonts/X11/Type1/NimbusRoman-BoldItalic.pfb
+[Eddy] [DEBUG] Font Nr.:218  -> URW Gothic                          | /usr/share/fonts/opentype/urw-base35/URWGothic-Demi.otf
+[Eddy] [DEBUG] Font Nr.:219  -> Noto Sans Chakma                    | /usr/share/fonts/truetype/noto/NotoSansChakma-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:220  -> Noto Sans Tifinagh Agraw Imazighen  | /usr/share/fonts/truetype/noto/NotoSansTifinaghAgrawImazighen-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:221  -> Nimbus Sans Narrow                  | /usr/share/fonts/type1/urw-base35/NimbusSansNarrow-BoldOblique.t1
+[Eddy] [DEBUG] Font Nr.:222  -> Nimbus Sans Narrow                  | /usr/share/fonts/type1/urw-base35/NimbusSansNarrow-Oblique.t1
+[Eddy] [DEBUG] Font Nr.:223  -> Noto Serif CJK HK                   | /usr/share/fonts/opentype/noto/NotoSerifCJK-Regular.ttc
+[Eddy] [DEBUG] Font Nr.:224  -> Noto Serif CJK KR                   | /usr/share/fonts/opentype/noto/NotoSerifCJK-Regular.ttc
+[Eddy] [DEBUG] Font Nr.:225  -> Liberation Mono                     | /usr/share/fonts/truetype/liberation/LiberationMono-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:226  -> URW Bookman                         | /usr/share/fonts/type1/urw-base35/URWBookman-Light.t1
+[Eddy] [DEBUG] Font Nr.:227  -> Noto Serif CJK JP                   | /usr/share/fonts/opentype/noto/NotoSerifCJK-Regular.ttc
+[Eddy] [DEBUG] Font Nr.:228  -> Noto Sans Gurmukhi                  | /usr/share/fonts/truetype/noto/NotoSansGurmukhi-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:229  -> Noto Sans Symbols2                  | /usr/share/fonts/truetype/noto/NotoSansSymbols2-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:230  -> Noto Sans Georgian                  | /usr/share/fonts/truetype/noto/NotoSansGeorgian-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:231  -> Noto Sans Javanese                  | /usr/share/fonts/truetype/noto/NotoSansJavanese-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:232  -> Liberation Sans                     | /usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:233  -> C059                                | /usr/share/fonts/type1/urw-base35/C059-Italic.t1
+[Eddy] [DEBUG] Font Nr.:234  -> DejaVu Serif                        | /usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:235  -> Noto Sans Brahmi                    | /usr/share/fonts/truetype/noto/NotoSansBrahmi-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:236  -> URW Bookman                         | /usr/share/fonts/type1/urw-base35/URWBookman-Demi.t1
+[Eddy] [DEBUG] Font Nr.:237  -> Noto Sans Masaram Gondi             | /usr/share/fonts/truetype/noto/NotoSansMasaramGondi-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:238  -> Noto Sans Devanagari                | /usr/share/fonts/truetype/noto/NotoSansDevanagari-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:239  -> Noto Sans Siddham                   | /usr/share/fonts/truetype/noto/NotoSansSiddham-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:240  -> Noto Serif Thai                     | /usr/share/fonts/truetype/noto/NotoSerifThai-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:241  -> Noto Sans Ugaritic                  | /usr/share/fonts/truetype/noto/NotoSansUgaritic-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:242  -> Noto Serif Dogra                    | /usr/share/fonts/truetype/noto/NotoSerifDogra-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:243  -> Noto Sans Telugu                    | /usr/share/fonts/truetype/noto/NotoSansTelugu-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:244  -> Noto Sans Tifinagh                  | /usr/share/fonts/truetype/noto/NotoSansTifinagh-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:245  -> Standard Symbols PS                 | /usr/share/fonts/opentype/urw-base35/StandardSymbolsPS.otf
+[Eddy] [DEBUG] Font Nr.:246  -> Noto Serif CJK TC                   | /usr/share/fonts/opentype/noto/NotoSerifCJK-Regular.ttc
+[Eddy] [DEBUG] Font Nr.:247  -> Ubuntu                              | /usr/share/fonts/truetype/ubuntu/Ubuntu[wdth,wght].ttf
+[Eddy] [DEBUG] Font Nr.:248  -> Noto Serif CJK SC                   | /usr/share/fonts/opentype/noto/NotoSerifCJK-Regular.ttc
+[Eddy] [DEBUG] Font Nr.:249  -> Noto Sans Tagalog                   | /usr/share/fonts/truetype/noto/NotoSansTagalog-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:250  -> Noto Serif Tamil Slanted            | /usr/share/fonts/truetype/noto/NotoSerifTamilSlanted-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:251  -> C059                                | /usr/share/fonts/type1/urw-base35/C059-Roman.t1
+[Eddy] [DEBUG] Font Nr.:252  -> Noto Sans Lisu                      | /usr/share/fonts/truetype/noto/NotoSansLisu-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:253  -> Noto Sans Elymaic                   | /usr/share/fonts/truetype/noto/NotoSansElymaic-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:254  -> Noto Serif CJK JP                   | /usr/share/fonts/opentype/noto/NotoSerifCJK-Bold.ttc
+[Eddy] [DEBUG] Font Nr.:255  -> Nimbus Mono PS                      | /usr/share/fonts/X11/Type1/NimbusMonoPS-Regular.pfb
+[Eddy] [DEBUG] Font Nr.:256  -> Noto Serif CJK KR                   | /usr/share/fonts/opentype/noto/NotoSerifCJK-Bold.ttc
+[Eddy] [DEBUG] Font Nr.:257  -> Noto Serif CJK HK                   | /usr/share/fonts/opentype/noto/NotoSerifCJK-Bold.ttc
+[Eddy] [DEBUG] Font Nr.:258  -> Nimbus Roman                        | /usr/share/fonts/opentype/urw-base35/NimbusRoman-BoldItalic.otf
+[Eddy] [DEBUG] Font Nr.:259  -> Noto Sans Lao                       | /usr/share/fonts/truetype/noto/NotoSansLao-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:260  -> Noto Looped Thai                    | /usr/share/fonts/truetype/noto/NotoLoopedThai-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:261  -> Nimbus Roman                        | /usr/share/fonts/opentype/urw-base35/NimbusRoman-Bold.otf
+[Eddy] [DEBUG] Font Nr.:262  -> Noto Sans Tifinagh Azawagh          | /usr/share/fonts/truetype/noto/NotoSansTifinaghAzawagh-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:263  -> P052                                | /usr/share/fonts/X11/Type1/P052-Roman.pfb
+[Eddy] [DEBUG] Font Nr.:264  -> Noto Sans Elbasan                   | /usr/share/fonts/truetype/noto/NotoSansElbasan-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:265  -> Noto Sans Pau Cin Hau               | /usr/share/fonts/truetype/noto/NotoSansPauCinHau-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:266  -> URW Bookman                         | /usr/share/fonts/X11/Type1/URWBookman-Demi.pfb
+[Eddy] [DEBUG] Font Nr.:267  -> DejaVu Sans Mono                    | /usr/share/fonts/truetype/dejavu/DejaVuSansMono-Oblique.ttf
+[Eddy] [DEBUG] Font Nr.:268  -> Nimbus Roman                        | /usr/share/fonts/type1/urw-base35/NimbusRoman-Bold.t1
+[Eddy] [DEBUG] Font Nr.:269  -> Noto Sans Medefaidrin               | /usr/share/fonts/truetype/noto/NotoSansMedefaidrin-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:270  -> Noto Sans Avestan                   | /usr/share/fonts/truetype/noto/NotoSansAvestan-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:271  -> Noto Sans Carian                    | /usr/share/fonts/truetype/noto/NotoSansCarian-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:272  -> Noto Sans Meetei Mayek              | /usr/share/fonts/truetype/noto/NotoSansMeeteiMayek-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:273  -> Noto Serif Sinhala                  | /usr/share/fonts/truetype/noto/NotoSerifSinhala-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:274  -> Noto Sans Gunjala Gondi             | /usr/share/fonts/truetype/noto/NotoSansGunjalaGondi-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:275  -> Noto Sans Deseret                   | /usr/share/fonts/truetype/noto/NotoSansDeseret-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:276  -> Noto Serif CJK SC                   | /usr/share/fonts/opentype/noto/NotoSerifCJK-Bold.ttc
+[Eddy] [DEBUG] Font Nr.:277  -> DejaVu Sans Mono                    | /usr/share/fonts/truetype/dejavu/DejaVuSansMono-BoldOblique.ttf
+[Eddy] [DEBUG] Font Nr.:278  -> Noto Sans Ol Chiki                  | /usr/share/fonts/truetype/noto/NotoSansOlChiki-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:279  -> Noto Traditional Nushu              | /usr/share/fonts/truetype/noto/NotoTraditionalNushu-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:280  -> Nimbus Sans                         | /usr/share/fonts/X11/Type1/NimbusSans-Italic.pfb
+[Eddy] [DEBUG] Font Nr.:281  -> Noto Mono                           | /usr/share/fonts/truetype/noto/NotoMono-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:282  -> Noto Serif                          | /usr/share/fonts/truetype/noto/NotoSerif-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:283  -> Nimbus Sans Narrow                  | /usr/share/fonts/X11/Type1/NimbusSansNarrow-Regular.pfb
+[Eddy] [DEBUG] Font Nr.:284  -> C059                                | /usr/share/fonts/opentype/urw-base35/C059-Bold.otf
+[Eddy] [DEBUG] Font Nr.:285  -> Noto Serif CJK TC                   | /usr/share/fonts/opentype/noto/NotoSerifCJK-Bold.ttc
+[Eddy] [DEBUG] Font Nr.:286  -> Noto Sans Mono CJK JP               | /usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc
+[Eddy] [DEBUG] Font Nr.:287  -> Noto Sans Mono CJK KR               | /usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc
+[Eddy] [DEBUG] Font Nr.:288  -> Noto Sans Mono CJK HK               | /usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc
+[Eddy] [DEBUG] Font Nr.:289  -> Noto Serif Tamil                    | /usr/share/fonts/truetype/noto/NotoSerifTamil-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:290  -> C059                                | /usr/share/fonts/type1/urw-base35/C059-BdIta.t1
+[Eddy] [DEBUG] Font Nr.:291  -> Nimbus Mono PS                      | /usr/share/fonts/X11/Type1/NimbusMonoPS-BoldItalic.pfb
+[Eddy] [DEBUG] Font Nr.:292  -> Noto Sans Javanese                  | /usr/share/fonts/truetype/noto/NotoSansJavanese-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:293  -> DejaVu Serif                        | /usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf
+[Eddy] [DEBUG] Font Nr.:294  -> Noto Sans CJK TC                    | /usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc
+[Eddy] [DEBUG] Font Nr.:295  -> Noto Serif Devanagari               | /usr/share/fonts/truetype/noto/NotoSerifDevanagari-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:296  -> Noto Serif Grantha                  | /usr/share/fonts/truetype/noto/NotoSerifGrantha-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:297  -> Noto Sans Lao                       | /usr/share/fonts/truetype/noto/NotoSansLao-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:298  -> Noto Sans CJK SC                    | /usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc
+[Eddy] [DEBUG] Font Nr.:299  -> Noto Sans Multani                   | /usr/share/fonts/truetype/noto/NotoSansMultani-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:300  -> Noto Looped Lao                     | /usr/share/fonts/truetype/noto/NotoLoopedLao-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:301  -> Noto Sans Armenian                  | /usr/share/fonts/truetype/noto/NotoSansArmenian-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:302  -> Liberation Sans Narrow              | /usr/share/fonts/truetype/liberation/LiberationSansNarrow-Italic.ttf
+[Eddy] [DEBUG] Font Nr.:303  -> URW Gothic                          | /usr/share/fonts/type1/urw-base35/URWGothic-Book.t1
+[Eddy] [DEBUG] Font Nr.:304  -> C059                                | /usr/share/fonts/opentype/urw-base35/C059-Italic.otf
+[Eddy] [DEBUG] Font Nr.:305  -> Noto Sans Mono CJK TC               | /usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc
+[Eddy] [DEBUG] Font Nr.:306  -> Noto Sans Sora Sompeng              | /usr/share/fonts/truetype/noto/NotoSansSoraSompeng-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:307  -> Noto Music                          | /usr/share/fonts/truetype/noto/NotoMusic-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:308  -> Noto Sans Mono CJK SC               | /usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc
+[Eddy] [DEBUG] Font Nr.:309  -> Noto Sans Hatran                    | /usr/share/fonts/truetype/noto/NotoSansHatran-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:310  -> Noto Serif Kannada                  | /usr/share/fonts/truetype/noto/NotoSerifKannada-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:311  -> Noto Sans Bamum                     | /usr/share/fonts/truetype/noto/NotoSansBamum-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:312  -> Nimbus Mono PS                      | /usr/share/fonts/opentype/urw-base35/NimbusMonoPS-Italic.otf
+[Eddy] [DEBUG] Font Nr.:313  -> Nimbus Sans                         | /usr/share/fonts/opentype/urw-base35/NimbusSans-Italic.otf
+[Eddy] [DEBUG] Font Nr.:314  -> Noto Sans Shavian                   | /usr/share/fonts/truetype/noto/NotoSansShavian-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:315  -> Noto Sans CJK KR                    | /usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc
+[Eddy] [DEBUG] Font Nr.:316  -> Noto Sans CJK HK                    | /usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc
+[Eddy] [DEBUG] Font Nr.:317  -> Noto Sans CJK JP                    | /usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc
+[Eddy] [DEBUG] Font Nr.:318  -> Noto Sans Old Permic                | /usr/share/fonts/truetype/noto/NotoSansOldPermic-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:319  -> Noto Sans Bassa Vah                 | /usr/share/fonts/truetype/noto/NotoSansBassaVah-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:320  -> URW Bookman                         | /usr/share/fonts/type1/urw-base35/URWBookman-LightItalic.t1
+[Eddy] [DEBUG] Font Nr.:321  -> Noto Sans NKo                       | /usr/share/fonts/truetype/noto/NotoSansNKo-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:322  -> Noto Sans Batak                     | /usr/share/fonts/truetype/noto/NotoSansBatak-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:323  -> Noto Sans Buhid                     | /usr/share/fonts/truetype/noto/NotoSansBuhid-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:324  -> Noto Rashi Hebrew                   | /usr/share/fonts/truetype/noto/NotoRashiHebrew-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:325  -> Noto Sans Mro                       | /usr/share/fonts/truetype/noto/NotoSansMro-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:326  -> Noto Sans Tai Tham                  | /usr/share/fonts/truetype/noto/NotoSansTaiTham-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:327  -> URW Gothic                          | /usr/share/fonts/type1/urw-base35/URWGothic-Demi.t1
+[Eddy] [DEBUG] Font Nr.:328  -> Noto Sans Yi                        | /usr/share/fonts/truetype/noto/NotoSansYi-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:329  -> Noto Sans Tagbanwa                  | /usr/share/fonts/truetype/noto/NotoSansTagbanwa-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:330  -> URW Bookman                         | /usr/share/fonts/X11/Type1/URWBookman-Light.pfb
+[Eddy] [DEBUG] Font Nr.:331  -> Noto Sans Old Persian               | /usr/share/fonts/truetype/noto/NotoSansOldPersian-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:332  -> P052                                | /usr/share/fonts/opentype/urw-base35/P052-Roman.otf
+[Eddy] [DEBUG] Font Nr.:333  -> Noto Sans Ogham                     | /usr/share/fonts/truetype/noto/NotoSansOgham-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:334  -> Noto Sans Myanmar                   | /usr/share/fonts/truetype/noto/NotoSansMyanmar-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:335  -> Noto Serif Bengali                  | /usr/share/fonts/truetype/noto/NotoSerifBengali-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:336  -> Ubuntu Sans Mono                    | /usr/share/fonts/truetype/ubuntu/UbuntuSansMono-Italic[wght].ttf
+[Eddy] [DEBUG] Font Nr.:337  -> Noto Sans Imperial Aramaic          | /usr/share/fonts/truetype/noto/NotoSansImperialAramaic-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:338  -> Noto Sans Caucasian Albanian        | /usr/share/fonts/truetype/noto/NotoSansCaucasianAlbanian-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:339  -> C059                                | /usr/share/fonts/X11/Type1/C059-Roman.pfb
+[Eddy] [DEBUG] Font Nr.:340  -> Noto Sans Miao                      | /usr/share/fonts/truetype/noto/NotoSansMiao-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:341  -> Nimbus Sans Narrow                  | /usr/share/fonts/type1/urw-base35/NimbusSansNarrow-Regular.t1
+[Eddy] [DEBUG] Font Nr.:342  -> Noto Serif Hebrew                   | /usr/share/fonts/truetype/noto/NotoSerifHebrew-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:343  -> Noto Sans Meetei Mayek              | /usr/share/fonts/truetype/noto/NotoSansMeeteiMayek-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:344  -> Liberation Serif                    | /usr/share/fonts/truetype/liberation/LiberationSerif-Italic.ttf
+[Eddy] [DEBUG] Font Nr.:345  -> Noto Sans Inscriptional Parthian    | /usr/share/fonts/truetype/noto/NotoSansInscriptionalParthian-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:346  -> OpenSymbol                          | /usr/share/fonts/truetype/libreoffice/opens___.ttf
+[Eddy] [DEBUG] Font Nr.:347  -> Nimbus Sans                         | /usr/share/fonts/X11/Type1/NimbusSans-Bold.pfb
+[Eddy] [DEBUG] Font Nr.:348  -> Noto Sans Arabic                    | /usr/share/fonts/truetype/noto/NotoSansArabic-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:349  -> Noto Sans Bamum                     | /usr/share/fonts/truetype/noto/NotoSansBamum-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:350  -> URW Bookman                         | /usr/share/fonts/opentype/urw-base35/URWBookman-DemiItalic.otf
+[Eddy] [DEBUG] Font Nr.:351  -> P052                                | /usr/share/fonts/X11/Type1/P052-Bold.pfb
+[Eddy] [DEBUG] Font Nr.:352  -> Noto Sans Symbols                   | /usr/share/fonts/truetype/noto/NotoSansSymbols-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:353  -> Noto Serif                          | /usr/share/fonts/truetype/noto/NotoSerif-Italic.ttf
+[Eddy] [DEBUG] Font Nr.:354  -> P052                                | /usr/share/fonts/type1/urw-base35/P052-Italic.t1
+[Eddy] [DEBUG] Font Nr.:355  -> Noto Sans Cuneiform                 | /usr/share/fonts/truetype/noto/NotoSansCuneiform-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:356  -> Noto Serif Display                  | /usr/share/fonts/truetype/noto/NotoSerifDisplay-BoldItalic.ttf
+[Eddy] [DEBUG] Font Nr.:357  -> Noto Serif Gurmukhi                 | /usr/share/fonts/truetype/noto/NotoSerifGurmukhi-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:358  -> Noto Sans Tai Viet                  | /usr/share/fonts/truetype/noto/NotoSansTaiViet-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:359  -> Noto Sans Old Turkic                | /usr/share/fonts/truetype/noto/NotoSansOldTurkic-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:360  -> Nimbus Sans                         | /usr/share/fonts/opentype/urw-base35/NimbusSans-Bold.otf
+[Eddy] [DEBUG] Font Nr.:361  -> DejaVu Sans Mono                    | /usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf
+[Eddy] [DEBUG] Font Nr.:362  -> Noto Serif Tamil                    | /usr/share/fonts/truetype/noto/NotoSerifTamil-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:363  -> Noto Kufi Arabic                    | /usr/share/fonts/truetype/noto/NotoKufiArabic-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:364  -> Nimbus Mono PS                      | /usr/share/fonts/opentype/urw-base35/NimbusMonoPS-BoldItalic.otf
+[Eddy] [DEBUG] Font Nr.:365  -> Noto Sans Mandaic                   | /usr/share/fonts/truetype/noto/NotoSansMandaic-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:366  -> Noto Color Emoji                    | /usr/share/fonts/truetype/noto/NotoColorEmoji.ttf
+[Eddy] [DEBUG] Font Nr.:367  -> Standard Symbols PS                 | /usr/share/fonts/X11/Type1/StandardSymbolsPS.pfb
+[Eddy] [DEBUG] Font Nr.:368  -> Noto Serif Armenian                 | /usr/share/fonts/truetype/noto/NotoSerifArmenian-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:369  -> Nimbus Sans Narrow                  | /usr/share/fonts/type1/urw-base35/NimbusSansNarrow-Bold.t1
+[Eddy] [DEBUG] Font Nr.:370  -> Noto Sans Khojki                    | /usr/share/fonts/truetype/noto/NotoSansKhojki-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:371  -> Noto Sans Malayalam                 | /usr/share/fonts/truetype/noto/NotoSansMalayalam-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:372  -> Nimbus Roman                        | /usr/share/fonts/opentype/urw-base35/NimbusRoman-Regular.otf
+[Eddy] [DEBUG] Font Nr.:373  -> Noto Sans Sinhala                   | /usr/share/fonts/truetype/noto/NotoSansSinhala-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:374  -> Noto Sans Tamil                     | /usr/share/fonts/truetype/noto/NotoSansTamil-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:375  -> Noto Sans Osage                     | /usr/share/fonts/truetype/noto/NotoSansOsage-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:376  -> C059                                | /usr/share/fonts/X11/Type1/C059-Bold.pfb
+[Eddy] [DEBUG] Font Nr.:377  -> Noto Serif Armenian                 | /usr/share/fonts/truetype/noto/NotoSerifArmenian-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:378  -> Noto Serif Tangut                   | /usr/share/fonts/truetype/noto/NotoSerifTangut-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:379  -> Nimbus Sans Narrow                  | /usr/share/fonts/X11/Type1/NimbusSansNarrow-Bold.pfb
+[Eddy] [DEBUG] Font Nr.:380  -> Noto Sans Canadian Aboriginal       | /usr/share/fonts/truetype/noto/NotoSansCanadianAboriginal-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:381  -> Noto Sans Ethiopic                  | /usr/share/fonts/truetype/noto/NotoSansEthiopic-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:382  -> Noto Serif                          | /usr/share/fonts/truetype/noto/NotoSerif-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:383  -> Noto Serif Ethiopic                 | /usr/share/fonts/truetype/noto/NotoSerifEthiopic-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:384  -> Nimbus Sans Narrow                  | /usr/share/fonts/opentype/urw-base35/NimbusSansNarrow-BoldOblique.otf
+[Eddy] [DEBUG] Font Nr.:385  -> Noto Sans Cherokee                  | /usr/share/fonts/truetype/noto/NotoSansCherokee-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:386  -> Noto Sans Bengali                   | /usr/share/fonts/truetype/noto/NotoSansBengali-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:387  -> URW Bookman                         | /usr/share/fonts/opentype/urw-base35/URWBookman-LightItalic.otf
+[Eddy] [DEBUG] Font Nr.:388  -> Noto Sans Zanabazar Square          | /usr/share/fonts/truetype/noto/NotoSansZanabazarSquare-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:389  -> Noto Kufi Arabic                    | /usr/share/fonts/truetype/noto/NotoKufiArabic-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:390  -> Noto Sans Thai                      | /usr/share/fonts/truetype/noto/NotoSansThai-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:391  -> Noto Serif Display                  | /usr/share/fonts/truetype/noto/NotoSerifDisplay-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:392  -> Nimbus Sans                         | /usr/share/fonts/X11/Type1/NimbusSans-BoldItalic.pfb
+[Eddy] [DEBUG] Font Nr.:393  -> Noto Sans Ethiopic                  | /usr/share/fonts/truetype/noto/NotoSansEthiopic-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:394  -> Noto Sans Saurashtra                | /usr/share/fonts/truetype/noto/NotoSansSaurashtra-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:395  -> Liberation Sans                     | /usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:396  -> Noto Sans Glagolitic                | /usr/share/fonts/truetype/noto/NotoSansGlagolitic-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:397  -> Noto Sans Mongolian                 | /usr/share/fonts/truetype/noto/NotoSansMongolian-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:398  -> Ubuntu                              | /usr/share/fonts/truetype/ubuntu/Ubuntu-Italic[wdth,wght].ttf
+[Eddy] [DEBUG] Font Nr.:399  -> Noto Sans Adlam                     | /usr/share/fonts/truetype/noto/NotoSansAdlam-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:400  -> Noto Sans Runic                     | /usr/share/fonts/truetype/noto/NotoSansRunic-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:401  -> Noto Sans Tamil Supplement          | /usr/share/fonts/truetype/noto/NotoSansTamilSupplement-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:402  -> Noto Serif Ahom                     | /usr/share/fonts/truetype/noto/NotoSerifAhom-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:403  -> Z003                                | /usr/share/fonts/type1/urw-base35/Z003-MediumItalic.t1
+[Eddy] [DEBUG] Font Nr.:404  -> Noto Sans Tifinagh Ahaggar          | /usr/share/fonts/truetype/noto/NotoSansTifinaghAhaggar-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:405  -> Ubuntu Mono                         | /usr/share/fonts/truetype/ubuntu/UbuntuMono[wght].ttf
+[Eddy] [DEBUG] Font Nr.:406  -> Nimbus Roman                        | /usr/share/fonts/X11/Type1/NimbusRoman-Italic.pfb
+[Eddy] [DEBUG] Font Nr.:407  -> Noto Sans Tifinagh APT              | /usr/share/fonts/truetype/noto/NotoSansTifinaghAPT-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:408  -> Noto Sans Tifinagh Ghat             | /usr/share/fonts/truetype/noto/NotoSansTifinaghGhat-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:409  -> P052                                | /usr/share/fonts/opentype/urw-base35/P052-BoldItalic.otf
+[Eddy] [DEBUG] Font Nr.:410  -> Liberation Serif                    | /usr/share/fonts/truetype/liberation/LiberationSerif-BoldItalic.ttf
+[Eddy] [DEBUG] Font Nr.:411  -> Liberation Sans Narrow              | /usr/share/fonts/truetype/liberation/LiberationSansNarrow-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:412  -> Noto Sans Meroitic                  | /usr/share/fonts/truetype/noto/NotoSansMeroitic-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:413  -> Noto Sans Myanmar                   | /usr/share/fonts/truetype/noto/NotoSansMyanmar-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:414  -> Noto Sans SignWriting               | /usr/share/fonts/truetype/noto/NotoSansSignWriting-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:415  -> C059                                | /usr/share/fonts/X11/Type1/C059-BdIta.pfb
+[Eddy] [DEBUG] Font Nr.:416  -> P052                                | /usr/share/fonts/X11/Type1/P052-Italic.pfb
+[Eddy] [DEBUG] Font Nr.:417  -> Noto Sans Tifinagh SIL              | /usr/share/fonts/truetype/noto/NotoSansTifinaghSIL-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:418  -> Noto Sans Tai Le                    | /usr/share/fonts/truetype/noto/NotoSansTaiLe-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:419  -> Nimbus Roman                        | /usr/share/fonts/type1/urw-base35/NimbusRoman-BoldItalic.t1
+[Eddy] [DEBUG] Font Nr.:420  -> Noto Serif Yezidi                   | /usr/share/fonts/truetype/noto/NotoSerifYezidi-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:421  -> Noto Sans Sundanese                 | /usr/share/fonts/truetype/noto/NotoSansSundanese-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:422  -> Noto Serif Display                  | /usr/share/fonts/truetype/noto/NotoSerifDisplay-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:423  -> Noto Sans Adlam                     | /usr/share/fonts/truetype/noto/NotoSansAdlam-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:424  -> Noto Sans Adlam Unjoined            | /usr/share/fonts/truetype/noto/NotoSansAdlamUnjoined-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:425  -> Noto Serif                          | /usr/share/fonts/truetype/noto/NotoSerif-BoldItalic.ttf
+[Eddy] [DEBUG] Font Nr.:426  -> Nimbus Sans                         | /usr/share/fonts/type1/urw-base35/NimbusSans-Italic.t1
+[Eddy] [DEBUG] Font Nr.:427  -> Nimbus Sans                         | /usr/share/fonts/X11/Type1/NimbusSans-Regular.pfb
+[Eddy] [DEBUG] Font Nr.:428  -> Noto Sans Inscriptional Pahlavi     | /usr/share/fonts/truetype/noto/NotoSansInscriptionalPahlavi-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:429  -> Noto Sans Armenian                  | /usr/share/fonts/truetype/noto/NotoSansArmenian-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:430  -> Noto Sans Tifinagh Rhissa Ixa       | /usr/share/fonts/truetype/noto/NotoSansTifinaghRhissaIxa-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:431  -> Noto Sans Thaana                    | /usr/share/fonts/truetype/noto/NotoSansThaana-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:432  -> Liberation Serif                    | /usr/share/fonts/truetype/liberation/LiberationSerif-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:433  -> Noto Nastaliq Urdu                  | /usr/share/fonts/truetype/noto/NotoNastaliqUrdu-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:434  -> Noto Sans Symbols                   | /usr/share/fonts/truetype/noto/NotoSansSymbols-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:435  -> URW Gothic                          | /usr/share/fonts/type1/urw-base35/URWGothic-BookOblique.t1
+[Eddy] [DEBUG] Font Nr.:436  -> Noto Sans Old South Arabian         | /usr/share/fonts/truetype/noto/NotoSansOldSouthArabian-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:437  -> Noto Sans Display                   | /usr/share/fonts/truetype/noto/NotoSansDisplay-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:438  -> Noto Serif Yezidi                   | /usr/share/fonts/truetype/noto/NotoSerifYezidi-Bold.ttf
+[Eddy] [DEBUG] Font Nr.:439  -> Noto Sans Syriac                    | /usr/share/fonts/truetype/noto/NotoSansSyriac-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:440  -> Noto Nastaliq Urdu                  | /usr/share/fonts/truetype/noto/NotoNastaliqUrdu-Regular.ttf
+[Eddy] [DEBUG] Font Nr.:441  -> Noto Sans Cypriot                   | /usr/share/fonts/truetype/noto/NotoSansCypriot-Regular.ttf
