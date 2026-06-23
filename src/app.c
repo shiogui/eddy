@@ -20,6 +20,10 @@ float glyphHeight;
 int printed = 0;
 char *temp_content = "[Eddy] Total charmaps found: 2  Index 0: Platform ID = 0, Encoding ID = 3 Index 1: Platform ID = 3, Encoding ID = 1 [CURRENTLY ACTIVE]";
 
+FcPattern *fc_pattern;
+FcObjectSet *fc_objset;
+FcFontSet *fc_fontset;
+
 typedef struct RopeNode
 {
     struct RopeNode *left;
@@ -216,6 +220,8 @@ SDL_AppResult SDL_AppInit(void **appstate, int argc, char **argv)
         state->file_path = argv[1];
     }
 
+    log_setup("CLI Params", "Loaded");
+
     state->points.w = 0;
     state->points.h = 0;
     SDL_memset(state->points.dt, 0, sizeof(state->points.dt));
@@ -226,6 +232,8 @@ SDL_AppResult SDL_AppInit(void **appstate, int argc, char **argv)
         state,
         INITIAL_APP_WIDTH,
         INITIAL_APP_HEIGHT);
+
+    log_setup("State", "Loaded");
 
     if (!SDL_Init(SDL_INIT_VIDEO))
     {
@@ -242,6 +250,10 @@ SDL_AppResult SDL_AppInit(void **appstate, int argc, char **argv)
     {
         return SDL_APP_FAILURE;
     }
+
+    log_setup("SDL3", "Loaded");
+
+    // ===============================================================================
 
     // initializes freetype2
     FT_Error error = FT_Init_FreeType(&library);
@@ -267,7 +279,7 @@ SDL_AppResult SDL_AppInit(void **appstate, int argc, char **argv)
         return SDL_APP_FAILURE;
     }
 
-    FT_Set_Pixel_Sizes(face, 0, 24);
+    FT_Set_Pixel_Sizes(face, 0, 14);
 
     // Setup a simple grayscale palette for the 8-bit index surface
     palette = SDL_CreatePalette(256);
@@ -282,6 +294,58 @@ SDL_AppResult SDL_AppInit(void **appstate, int argc, char **argv)
     }
     SDL_SetPaletteColors(palette, colors, 0, 256);
 
+    log_setup("FreeType2", "Loaded");
+
+    // ===============================================================================
+
+    FcInit();
+
+    fc_pattern = FcPatternCreate();
+
+    fc_objset = FcObjectSetBuild(FC_FAMILY, FC_FILE, NULL);
+    if (!fc_objset)
+    {
+        log_info("Error: Failed to build FontConfig Object Set");
+        FcPatternDestroy(fc_pattern);
+        return SDL_APP_FAILURE;
+    }
+
+    fc_fontset = FcFontList(NULL, fc_pattern, fc_objset);
+    if (!fc_fontset)
+    {
+        log_info("Error: Failed to list FontConfig Font List");
+        FcPatternDestroy(fc_pattern);
+        FcObjectSetDestroy(fc_objset);
+        return SDL_APP_FAILURE;
+    }
+
+    FILE *file_ptr = fopen("dumps/fonts.txt", "w");
+    log_to_file(file_ptr, "[DEBUG] Found %d available fonts.", fc_fontset->nfont);
+
+    for (int i = 0; i < fc_fontset->nfont; i++)
+    {
+        FcPattern *font = fc_fontset->fonts[i];
+
+        // extract file path and family name from the current font pattern
+        FcChar8 *file = NULL;
+        FcResult fc_file_result = FcPatternGetString(font, FC_FILE, 0, &file);
+
+        FcChar8 *family = NULL;
+        FcResult fc_family_result = FcPatternGetString(font, FC_FAMILY, 0, &family);
+
+        if (fc_file_result == FcResultMatch && fc_family_result == FcResultMatch)
+        {
+            log_to_file(file_ptr, "[DEBUG] Font Nr.:%-4d -> %-35s | %s", i + 1, family, file);
+            continue;
+        }
+    }
+
+    fclose(file_ptr);
+
+    log_setup("FontConfig", "Loaded");
+
+    // ===============================================================================
+
     // 1. create leaf nodes with string segments
     RopeNode *r1 = create_leaf("Hello_");
     RopeNode *r2 = create_leaf("my_");
@@ -292,14 +356,18 @@ SDL_AppResult SDL_AppInit(void **appstate, int argc, char **argv)
     RopeNode *root = concatenate(root1, r3);
 
     // 3. display results
-    printf("Full String: ");
-    print_rope(root);
-    printf("\n");
+    // printf("Full String: ");
+    // print_rope(root);
+    // printf("\n");
 
-    printf("Root left subtree weight: %d chars\n", root->weight);
+    // log_info("[DEBUG] Root left subtree weight: %d chars\n", root->weight);
 
     // 4. cleanup memory
     free_rope(root);
+
+    log_setup("Rope", "Loaded");
+
+    // ===============================================================================
 
     return SDL_APP_CONTINUE;
 }
@@ -361,6 +429,10 @@ void SDL_AppQuit(void *appstate, SDL_AppResult result)
 
     FT_Done_Face(face);
     FT_Done_FreeType(library);
+
+    FcFontSetDestroy(fc_fontset);
+    FcObjectSetDestroy(fc_objset);
+    FcPatternDestroy(fc_pattern);
 
     SDL_DestroyRenderer(state->renderer);
     SDL_DestroyWindow(state->window);
