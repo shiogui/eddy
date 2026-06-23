@@ -1,6 +1,10 @@
-[Eddy] [2026-06-23 10:24:28] Window Size Changed to { w: 1255, h: 600 }
-[Eddy] [2026-06-23 10:25:08] Window Size Changed to { w: 800, h: 600 }
-[Eddy] [2026-06-23 10:25:10] Window Size Changed to { w: 1920, h: 969 }
-[Eddy] [2026-06-23 10:25:11] Window Size Changed to { w: 800, h: 600 }
-[Eddy] [2026-06-23 10:25:13] Window Size Changed to { w: 805, h: 600 }
-[Eddy] [2026-06-23 10:25:14] Window Size Changed to { w: 1356, h: 600 }
+[Eddy] [2026-06-23 16:17:58] Window Size Changed to { w: 800, h: 600 }
+[Eddy] [2026-06-23 16:18:09] Window Size Changed to { w: 1920, h: 969 }
+[Eddy] [2026-06-23 16:18:10] Window Size Changed to { w: 800, h: 600 }
+[Eddy] [2026-06-23 16:18:15] Window Size Changed to { w: 843, h: 685 }
+[Eddy] [2026-06-23 16:18:15] Window Size Changed to { w: 844, h: 687 }
+[Eddy] [2026-06-23 16:18:15] Window Size Changed to { w: 853, h: 658 }
+[Eddy] [2026-06-23 16:18:15] Window Size Changed to { w: 915, h: 542 }
+[Eddy] [2026-06-23 16:18:16] Window Size Changed to { w: 932, h: 479 }
+[Eddy] [2026-06-23 16:21:17] Window Size Changed to { w: 800, h: 600 }
+[Eddy] [2026-06-23 16:22:04] Window Size Changed to { w: 800, h: 600 }
